@@ -1,0 +1,75 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*  Console.Write("Введите первое число: ");/////////////////////зд1
+              int FirstNum = Convert.ToInt32(Console.ReadLine());
+              Console.Write("Введите второе число: ");
+              int SecNum = Convert.ToInt32(Console.ReadLine());
+              int z;
+              z = FirstNum - SecNum;
+              if (z > 0)
+              {
+                  Console.WriteLine("Первое число больше второго");
+
+
+              }
+              else if(z<0)
+              {
+                  Console.WriteLine("Второе число больше");
+
+              }
+              else
+              {
+                  Console.WriteLine("числа равны");
+
+              }
+              */
+
+            /*///зд2
+            Console.Write("Введите первое число: ");
+            int FirstNum = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите второе число: ");
+            int SecNum = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите третье число: ");
+            int ThirdNum = Convert.ToInt32(Console.ReadLine());
+
+            int max = Math.Max(FirstNum, Math.Max(SecNum, ThirdNum));
+
+            Console.WriteLine("Наибольшее число:{0} ",max);
+            */
+
+
+
+            /*
+            Console.Write("Введите число: ");//зд3
+            int FirstNum = Convert.ToInt32(Console.ReadLine());
+
+           
+            if (FirstNum%2==0)
+            {
+                Console.WriteLine("чет");
+            }
+            else
+            {
+                Console.WriteLine("нечет");
+            }
+            */
+
+
+            Console.Write("Введите число: ");///зд4
+            int FirstNum = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = FirstNum; i >= 0; i--)
+            {
+                if (i>0 & i%2==0) { 
+                Console.WriteLine("Число: {0} ", i);
+                }
+            }
+        }
+    }
+}
